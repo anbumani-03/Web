@@ -1,5 +1,5 @@
  body{
-    background-image:url("../Images/5153829.jpg");
+    background-image:url("5153829.jpg");
     background-size:cover;
     background-attachment:fixed;
  }
@@ -90,3 +90,4 @@ input[type="radio"]{
 
     transform:scale(1.5);
 }
+
