@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anbu&#128149</title>
+        <link rel="stylesheet" href="login.css">  
+        <link rel="icon" href="anbu.png">  
+
+    <body>
+        <div id="login-form">
+            <label class="title">Login form</label>
+            <input class="text" type="email" placeholder="Email" name="email" required>
+            <input class="text" type="password" placeholder="password" name="password" required>
+            <button type="submit">Login</button><br>
+            <label>Don't have an account <a style="text-decoration: none;" onclick="showregister()">Register</a></label>
+        </div>
+        <div id="register-form"> 
+            <label class="title">Register form</label>
+            <br><input class="text" type="text" placeholder="Name" name="name" required>
+            <input class="text" type="email" placeholder="Email" name="email" required>
+            <input class="text" type="password" placeholder="Password" name="password" required>
+            <input class="text" type="text" placeholder="dd-mm-yyyy" name="date" required>
+            <input class="text" type="text" placeholder="Enter the roll number" name="rollno" required>
+            <input type="radio" name="gender" value="male"><label class="radio">Male</label>          
+            <input type="radio" name="gender" value="female"><label class="radio">Female</label><br>
+
+             
+            <button type="submit">Register</button><br>
+            <label>Already have an account <a style="text-decoration: none;" onclick="showlogin()">Login</a></label>
+        </div>
+
+        <script>
+            function showregister(){
+                document.getElementById("login-form").style.display="none";
+                document.getElementById("register-form").style.display="block";
+            }
+
+            function showlogin(){
+                document.getElementById("register-form").style.display="none";
+                document.getElementById("login-form").style.display="block";
+            }
+
+        </script>
+
+
+
+
+
+        <!-- <div>
+            <a href="https://www.linkedin.com/in/anbumani-m-959897379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> 
+                <img src="https://static.vecteezy.com/system/resources/previews/022/424/463/original/linkedin-logo-editorial-free-vector.jpg" alt="linkedin profile" title="Linkedin" width="70px" height="">
+            </a>
+        </div> -->
+
+
+    </body>
+
+</html>
+
+
